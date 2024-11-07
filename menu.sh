@@ -15,13 +15,18 @@ echo "what the sigma!, would you like to go to? type the number!"
 echo "1:stock hacking"
 echo "2:scammer fighting sim?"
 echo "3:download viruses?"
+
 read user
 if [ "$user" == "1" ];then 
    source bitcoin.sh
+
 elif [ "$user" == "2" ];then
    source scam.sh
+
 elif [ "$user" == "3" ];then
-   source virus.sh 
+   source virus.sh
+
+
 else
 	echo "are you with the fbi?, your gonna get hacked"
 	source hack.sh
