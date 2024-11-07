@@ -11,7 +11,7 @@ read pin
 echo "amazing password, its $pin. finally, a good password!"
 echo "generating simulation"
 sleep 3
-echo "what the sigma!, would you like to go to? type the number!"
+echo "what the sigma!,where would you like to go to? type the number!"
 echo "1:stock hacking"
 echo "2:scammer fighting sim?"
 echo "3:download viruses?"
