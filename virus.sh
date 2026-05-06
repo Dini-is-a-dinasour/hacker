@@ -9,4 +9,6 @@ sleep 2
 echo "sending $ping"
 sleep 3
 echo "congrats! youve succsesfuly infected $user with $ping !"
+geg=$((RANDOM % 6767))
 echo "goodbye, +rizz"
+exit 0

@@ -3,6 +3,7 @@
 echo "proceeding with hacking"
 sleep 3
 echo "error 1023, unknown substance detected. please refer to the..."
+sleep 2
 echo "so....youve.chosen hacking huh?"
 sleep 3
 echo "hi, im part of the fbi, your ip 1.20.30.123"

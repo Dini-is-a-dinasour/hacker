@@ -9,6 +9,9 @@ echo "we shall get the files"
 sleep 30
 echo "we are almost there"
 sleep 12
-echo "stolen 21 dollars"
-echo "stolen 311 cents"
+pptx=$((RANDOM % 9999999999999999999999999999999999999999999999))
+echo "stolen $pptx dollars"
+echo "stolen 67 cents"
 sleep 1
+echo "congrats, ending sesh"
+exit 0
