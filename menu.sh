@@ -29,5 +29,6 @@ elif [ "$user" == "3" ];then
 
 else
 	echo "are you with the fbi?, your gonna get hacked"
+   sleep 3
 	source hack.sh
 fi
