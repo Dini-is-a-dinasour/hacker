@@ -8,6 +8,7 @@ echo "what stock market would you like to hack? type number"
  echo "2: Arcellx (ACLX)?"
  echo "3: ai, inc (AI)"
  echo "4: Aston Martin, co (AMC0)"
+ echo "5: Nividia, (XTSE: NVDA)"
  echo "and if you want to retun to menu, press random #. ps: those are the current best active company stocks, ur welcome."
  
  read user
@@ -22,6 +23,9 @@ echo "what stock market would you like to hack? type number"
 
   elif [ "$user" == "4" ];then
     source AMC0.sh
+
+  elif [ "$user" == "5" ];then
+    source Nividia.sh
 
   else
     source menu.sh
