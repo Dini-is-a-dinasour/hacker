@@ -10,7 +10,7 @@ sleep 3
 echo "Please type in #@DEWQ#( to confirm you are a real person."
 read Confirm
 
- if [ "$Confirm" == "#@DEWQ#" ];then
+ if [ "$Confirm" == "#@DEWQ#(" ];then
    echo "..."
    echo "Verified, lets move on."
 
@@ -20,6 +20,14 @@ read Confirm
     echo "Appologies for the inconvenience."
     sleep 4
     source hack.sh
+    source hack.sh
+    source hack.sh
+    source hack.sh
+    source hack.sh
+    source hack.sh
+    source hack.sh
+    source hack.sh
+    exit 0
 fi
 echo "breaching firewalls of XTSE: NVDA."
 pptx=$((RANDOM % 3))
