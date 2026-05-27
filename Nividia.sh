@@ -12,7 +12,7 @@ read Confirm
 
  if [ "$Confirm" == "#@DEWQ#" ];then
    echo "..."
-   echo "Verified, lets move on.
+   echo "Verified, lets move on."
 
   else
     echo "Incorrect..."
@@ -22,7 +22,7 @@ read Confirm
     source hack.sh
 fi
 echo "breaching firewalls of XTSE: NVDA."
-pptx=$((RANDOM % 9999))
+pptx=$((RANDOM % 3))
 sleep $pptx
 echo "#"
 pptx=$((RANDOM % 3))
@@ -31,16 +31,16 @@ echo "*"
 pptx=$((RANDOM % 3))
 sleep $pptx
 echo "R#@XTSE: #@I!"
-pptx=$((RANDOM % 9999))
+pptx=$((RANDOM % 3))
 sleep $pptx
 echo "#@!*($)(Vdd..NVDASAJDK"
-pptx=$((RANDOM % 9999))
+pptx=$((RANDOM % 3))
 sleep $pptx
 echo "#jd"
-pptx=$((RANDOM % 9999))
+pptx=$((RANDOM % 3))
 sleep $pptx
 echo "FSJAKDLK!_@#)(_SLMZ<MXC"
-pptx=$((RANDOM % 9999))
+pptx=$((RANDOM % 3))
 sleep $pptx
 echo "Completed bitcoin hacking, you have recieved $dd."
 sleep $pptx
