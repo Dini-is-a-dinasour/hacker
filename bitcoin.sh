@@ -1,7 +1,8 @@
 #!/bin/bash
 sleep 2
+Username=$(grep '^Username:' /home/dini/HackerTyper/Logininfo.txt | cut -d ':' -f 2- | xargs)
 clear
-echo "welcome to stock market hacking"
+echo "welcome to stock market hacking $Username"
 sleep 1
 echo "what stock market would you like to hack? type number"
  echo "1: ACI Worldwide, inc (ACI)?"
